@@ -8,17 +8,18 @@ import TitleTwo from "./componentes/TitleTwo";
 import Data from "./componentes/Data";
 import Ubicacion from "./componentes/Ubicacion";
 import Contacto from "./componentes/Contacto";
+import Whatsapp from "./componentes/Whatsapp";
 
 export default function App() {
   return (
-    <div>
+    <div class="container-fluid">
+      <Whatsapp />
       <Headers />
       <TitlleOne />
       <Carousels />
       <TitleTwo />
       <Abouts />
       <Data />
-
       <Contacto />
     </div>
   );

@@ -14,7 +14,7 @@ export default function Contacto() {
       <Container fluid>
         <h2 className="text-center">Contacto</h2>
         <h4 className="text-center">Conéctate con nosotros</h4>
-      
+
         <Form>
           <Row>
             <Col sm={4} className="py-4">
@@ -43,14 +43,15 @@ export default function Contacto() {
           </Row>
 
           <div className="text-center py-4">
-            <Button type="submit">Enviar</Button>
+            <Button type="submit" variant="success">Enviar</Button>
           </div>
         </Form>
       </Container>
 
       <div style={{ width: "auto", height: "auto" }} className="py-5">
         <Ratio aspectRatio="21x9">
-          <embed className="border border-dark border-2"
+          <embed
+            className="border border-dark border-2"
             title="map"
             type="image/svg+xml"
             src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3139.932827943921!2d-72.369625!3d5.299308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNcKwMTcnNTcuNSJOIDcywrAyMicxMC43Ilc!5e1!3m2!1ses-419!2sco!4v1713597139838!5m2!1ses-419!2sco"
@@ -58,19 +59,19 @@ export default function Contacto() {
         </Ratio>
       </div>
 
-      <Container fluid className="bg-success py-2">
+      <Container fluid className="bg-success py-2 ">
         <div class="d-flex justify-content-evenly ">
           <Button className="btn btn-success ">
-            <MdOutlineEmail style={{ width: 60, height: "auto" }} />
-            <p>villa.arturo2024@gmail.com</p>
+            <MdOutlineEmail style={{ width: 30, height: "auto" }} />
+            <p></p>
           </Button>
           <Button className="btn btn-success">
-            <MdOutlinePhoneInTalk style={{ width: 60, height: "auto" }}/>
-            <p>012-345-6789 </p>
+            <MdOutlinePhoneInTalk style={{ width: 30, height: "auto" }} />
+            <p> </p>
           </Button>
           <Button className="btn btn-success">
-            <CiLocationOn style={{ width: 60, height: "auto" }}/>
-            <p>Via Picon KM 2.5</p>
+            <CiLocationOn style={{ width: 30, height: "auto" }} />
+            <p></p>
           </Button>
         </div>
       </Container>
