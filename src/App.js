@@ -9,6 +9,8 @@ import Data from "./componentes/Data";
 import Ubicacion from "./componentes/Ubicacion";
 import Contacto from "./componentes/Contacto";
 import Whatsapp from "./componentes/Whatsapp";
+import Footer from "./componentes/Footer"
+
 
 export default function App() {
   return (
@@ -21,6 +23,7 @@ export default function App() {
       <Abouts />
       <Data />
       <Contacto />
+      <Footer/>
     </div>
   );
 }

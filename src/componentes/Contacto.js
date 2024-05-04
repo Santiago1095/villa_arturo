@@ -3,9 +3,6 @@ import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
-import { MdOutlineEmail } from "react-icons/md";
-import { MdOutlinePhoneInTalk } from "react-icons/md";
-import { CiLocationOn } from "react-icons/ci";
 import Ratio from "react-bootstrap/Ratio";
 
 export default function Contacto() {
@@ -43,12 +40,14 @@ export default function Contacto() {
           </Row>
 
           <div className="text-center py-4">
-            <Button type="submit" variant="success">Enviar</Button>
+            <Button type="submit" variant="success">
+              Enviar
+            </Button>
           </div>
         </Form>
       </Container>
 
-      <div style={{ width: "auto", height: "auto" }} className="py-5">
+      <div style={{ width: "auto", height: "auto" }} className="py-2">
         <Ratio aspectRatio="21x9">
           <embed
             className="border border-dark border-2"
@@ -59,22 +58,7 @@ export default function Contacto() {
         </Ratio>
       </div>
 
-      <Container fluid className="bg-success py-2 ">
-        <div class="d-flex justify-content-evenly ">
-          <Button className="btn btn-success ">
-            <MdOutlineEmail style={{ width: 30, height: "auto" }} />
-            <p></p>
-          </Button>
-          <Button className="btn btn-success">
-            <MdOutlinePhoneInTalk style={{ width: 30, height: "auto" }} />
-            <p> </p>
-          </Button>
-          <Button className="btn btn-success">
-            <CiLocationOn style={{ width: 30, height: "auto" }} />
-            <p></p>
-          </Button>
-        </div>
-      </Container>
+    
     </div>
   );
 }

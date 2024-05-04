@@ -2,14 +2,14 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import img19 from "../assets/img19.jpg";
+import img28 from "../assets/img28.jpg";
 
 export default function Data() {
   return (
     <Container fluid py-4>
       <Row>
         <Col sm={5}>
-          <Image src={img19} thumbnail />
+          <Image src={img28} thumbnail />
         </Col>
 
         <Col sm={7}>

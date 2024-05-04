@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import img7 from '../assets/img7.jpg'
+import img3 from '../assets/img3.jpg'
 import img8 from '../assets/img8.jpg'
-import img9 from '../assets/img9.jpg'
+import img16 from '../assets/img16.jpg'
 
 export default function Carousels(){
     return (
@@ -11,7 +11,7 @@ export default function Carousels(){
 
     <Carousel>
     <Carousel.Item interval={2500}>
-    <img src={img7} alt="" class="d-block w-100"/>
+    <img src={img3} alt="" class="d-block w-100"/>
       <Carousel.Caption>
         
       </Carousel.Caption>
@@ -23,7 +23,7 @@ export default function Carousels(){
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item interval={2500}>
-      <img src={img9} alt="" class="d-block w-100"/>
+      <img src={img16} alt="" class="d-block w-100"/>
       <Carousel.Caption d-none>
        
       </Carousel.Caption>

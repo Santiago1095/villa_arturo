@@ -6,7 +6,7 @@ export default function TitleTwo() {
       </h3>
 
       <h4 className="text-center bg-light bg-gradient p-3  text-dark">
-        Empieza a disfrutar la experiencia del campo en lotes en condominio
+        Empieza a disfrutar la experiencia del campo en condominio
         campestre Villa Arturo, ubicado en Yopal, Casanare
       </h4>
     </div>
