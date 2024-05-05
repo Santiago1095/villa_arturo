@@ -18,7 +18,7 @@ export default function Whatsapp() {
     >
       <a href="https://wa.link/olzdv2" className="text-white">
         <SiWhatsapp
-          className="bg-success border border-dark py-2"
+          className="bg-success  py-2"
           style={{
             width: "auto",
             height: "auto",

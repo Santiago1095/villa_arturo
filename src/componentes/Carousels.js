@@ -5,25 +5,25 @@ import img16 from '../assets/img16.jpg'
 
 export default function Carousels(){
     return (
-<div class="d-block w-100 py-4">
+<div className="d-block w-100 py-4">
     
       <div row>
 
     <Carousel>
     <Carousel.Item interval={2500}>
-    <img src={img3} alt="" class="d-block w-100"/>
+    <img src={img3} alt="" className="d-block w-100"/>
       <Carousel.Caption>
         
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item interval={2500}>
-    <img src={img8} alt="" class="d-block w-100"/>
+    <img src={img8} alt="" className="d-block w-100"/>
       <Carousel.Caption>
       
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item interval={2500}>
-      <img src={img16} alt="" class="d-block w-100"/>
+      <img src={img16} alt="" className="d-block w-100"/>
       <Carousel.Caption d-none>
        
       </Carousel.Caption>

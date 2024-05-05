@@ -8,7 +8,7 @@ import Footer from "./Footer";
 
 const Home = () => {
   return (
-    <div class="container-fluid">
+    <div className="container-fluid">
       <TitleOne />
       <Carousels />
       <TitleTwo />
