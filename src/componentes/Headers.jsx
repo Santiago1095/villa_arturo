@@ -7,14 +7,14 @@ export default function Headers() {
     <div>
       <Navbar expand="lg fixed-top py-2 bg-success-subtle">
         <Container className="bg-success-subtle py-1">
-          <Navbar.Brand href="#home">Villa Arturo</Navbar.Brand>
+          <Navbar.Brand href="/home">Villa Arturo</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#inicio">Inicio</Nav.Link>
-              <Nav.Link href="#ventas">Ventas</Nav.Link>
-              <Nav.Link href="#pago">Formas De Pago</Nav.Link>
-              <Nav.Link href="#experiencias">Experiencias</Nav.Link>
+              <Nav.Link href="/home">Inicio</Nav.Link>
+              <Nav.Link href="/home/lotes">Lotes Disponibles</Nav.Link>
+              <Nav.Link href="/home/fotografias">Fotografias</Nav.Link>
+              <Nav.Link href="/home/testimonios">Testimonios</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

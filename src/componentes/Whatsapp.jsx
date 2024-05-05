@@ -1,7 +1,6 @@
 import { SiWhatsapp } from "react-icons/si";
 import Button from "react-bootstrap/Button";
 
-
 export default function Whatsapp() {
   return (
     <Button
@@ -17,18 +16,18 @@ export default function Whatsapp() {
         padding: 6,
       }}
     >
-      <SiWhatsapp
-        className="bg-success border border-dark py-2"
-        style={{
-          width: "auto",
-          height: "auto",
-          justifyContent: "center",
-          borderRadius: 50,
-          padding: 7,
-        }}
-      />
+      <a href="https://wa.link/olzdv2" className="text-white">
+        <SiWhatsapp
+          className="bg-success border border-dark py-2"
+          style={{
+            width: "auto",
+            height: "auto",
+            justifyContent: "center",
+            borderRadius: 50,
+            padding: 7,
+          }}
+        />
+      </a>
     </Button>
-
-    
   );
 }

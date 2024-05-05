@@ -6,7 +6,7 @@ import img28 from "../assets/img28.jpg";
 
 export default function Data() {
   return (
-    <Container fluid py-4>
+    <Container fluid className="py-4">
       <Row>
         <Col sm={5}>
           <Image src={img28} thumbnail />
