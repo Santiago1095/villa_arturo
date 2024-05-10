@@ -14,7 +14,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Whatsapp from "./componentes/Whatsapp";
 
 import Home from "./componentes/Home";
-import Lotes from "./componentes/comp-headers/Lotes";
+import Planos from "./componentes/comp-headers/Planos";
 
 import Testimonios from "./componentes/comp-headers/Testimonios";
 import Galeria from "./componentes/comp-headers/Galeria";
@@ -29,7 +29,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
 
-        <Route path="/lotes" element={<Lotes />} />
+        <Route path="/planos" element={<Planos />} />
         <Route path="/galeria" element={<Galeria />} />
         <Route path="/testimonios" element={<Testimonios />} />
       </Routes>
