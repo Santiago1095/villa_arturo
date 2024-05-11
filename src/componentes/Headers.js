@@ -16,7 +16,7 @@ export default function Headers() {
               <Nav.Link href="/">Inicio</Nav.Link>
               <Nav.Link href="/planos">Planos Generales</Nav.Link>
               <Nav.Link href="/galeria">Galeria</Nav.Link>
-              <Nav.Link href="/testimonios">Testimonios</Nav.Link>
+              <Nav.Link href="/opiniones">Opiniones</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

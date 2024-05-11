@@ -16,9 +16,9 @@ import Whatsapp from "./componentes/Whatsapp";
 import Home from "./componentes/Home";
 import Planos from "./componentes/comp-headers/Planos";
 
-import Testimonios from "./componentes/comp-headers/Testimonios";
 import Galeria from "./componentes/comp-headers/Galeria";
 import Headers from "./componentes/Headers";
+import Opiniones from "./componentes/comp-headers/Opiniones";
 
 export default function App() {
   return (
@@ -31,7 +31,7 @@ export default function App() {
 
         <Route path="/planos" element={<Planos />} />
         <Route path="/galeria" element={<Galeria />} />
-        <Route path="/testimonios" element={<Testimonios />} />
+        <Route path="/opiniones" element={<Opiniones />} />
       </Routes>
     </BrowserRouter>
   );
