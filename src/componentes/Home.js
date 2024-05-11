@@ -3,8 +3,6 @@ import Carousels from "./Carousels";
 import TitleTwo from "./TitleTwo";
 import Abouts from "./Abouts";
 import Data from "./Data";
-import Contacto from "./Contacto";
-import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -14,8 +12,6 @@ const Home = () => {
       <TitleTwo />
       <Abouts />
       <Data />
-      <Contacto />
-      <Footer />
     </div>
   );
 };

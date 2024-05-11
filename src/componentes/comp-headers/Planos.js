@@ -1,3 +1,4 @@
+import Contacto from "../Contacto";
 import img30 from "../../assets/img30.jpg";
 export default function Planos() {
   return (
@@ -6,13 +7,6 @@ export default function Planos() {
         PLANOS GENERALES
       </h1>
       <img src={img30} alt="" className="d-block w-100" />
-
-      <div>
-        <ul>
-          <l className="">Manzana A</l>
-          <li>Lote 1: Libre</li>
-        </ul>
-      </div>
     </div>
   );
 }

@@ -2,21 +2,21 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import img28 from "../assets/img28.jpg";
+import img30 from "../assets/img30.jpg";
 
 export default function Data() {
   return (
     <Container fluid className="py-4">
       <Row>
-        <Col sm={5}>
-          <Image src={img28} thumbnail />
+        <Col sm={6} className="py-5">
+          <Image src={img30} thumbnail />
         </Col>
 
-        <Col sm={7}>
-          <h1>Planos Generales</h1>
+        <Col sm={6}>
+          <h1>Villa Arturo Cuenta Con</h1>
 
           <ul>
-            <li>180 Lotes Campestres</li>
+            <li>120 Lotes Campestres</li>
             <li>Vías internas proyectadas en Cintas de Concreto</li>
             <li>Andenes en Terreno Natural</li>
             <li>Redes de servicios públicos: Luz, Agua y Alcantarillado</li>

@@ -19,6 +19,8 @@ import Planos from "./componentes/comp-headers/Planos";
 import Galeria from "./componentes/comp-headers/Galeria";
 import Headers from "./componentes/Headers";
 import Opiniones from "./componentes/comp-headers/Opiniones";
+import Contacto from "./componentes/Contacto";
+import Footer from "./componentes/Footer";
 
 export default function App() {
   return (
@@ -33,6 +35,8 @@ export default function App() {
         <Route path="/galeria" element={<Galeria />} />
         <Route path="/opiniones" element={<Opiniones />} />
       </Routes>
+      <Contacto/>
+      <Footer/>
     </BrowserRouter>
   );
 }

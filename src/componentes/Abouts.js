@@ -6,7 +6,7 @@ export default function Abouts() {
   return (
     <div className="row row-cols-1 row-cols-md-3 g-4 py-5 p-5 fst-italic">
       <div className="col">
-        <div className="card h-100 border-5 rounded-3  border-success p-2">
+        <div className="card h-100 border-5 rounded-3  border-light p-2">
           <img src={img21} className="rounded-3" />
           <div className="card-body">
             <h5 className="card-title">GESTIÓN DE PROYECTOS</h5>
@@ -21,7 +21,7 @@ export default function Abouts() {
         </div>
       </div>
       <div className="col">
-        <div className="card h-100 border-5 rounded-3  border-success p-2">
+        <div className="card h-100 border-5 rounded-3  border-light p-2">
           <img src={img22} className="rounded-3" />
           <div className="card-body">
             <h5 className="card-title">INGENIERÍA</h5>
@@ -34,7 +34,7 @@ export default function Abouts() {
         </div>
       </div>
       <div className="col">
-        <div className="card h-100 border-5 rounded-3  border-success p-2">
+        <div className="card h-100 border-5 rounded-3  border-light p-2">
           <img src={img23} className="rounded-3" />
           <div className="card-body">
             <h5 className="card-title">URBANISMO</h5>
