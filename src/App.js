@@ -21,11 +21,14 @@ import Headers from "./componentes/Headers";
 import Opiniones from "./componentes/comp-headers/Opiniones";
 import Contacto from "./componentes/Contacto";
 import Footer from "./componentes/Footer";
+import Ubicacion from "./componentes/Ubicacion";
+import Diseño from "./componentes/comp-headers/Diseño";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Headers />
+
       <Whatsapp />
 
       <Routes>
@@ -33,10 +36,11 @@ export default function App() {
 
         <Route path="/planos" element={<Planos />} />
         <Route path="/galeria" element={<Galeria />} />
+        <Route path="/diseño" element={<Diseño />} />
         <Route path="/opiniones" element={<Opiniones />} />
       </Routes>
-      <Contacto/>
-      <Footer/>
+      <Contacto />
+      <Footer />
     </BrowserRouter>
   );
 }

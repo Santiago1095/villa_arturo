@@ -14,7 +14,7 @@ import imgp6 from "../../assets/imgp6.jpg";
 
 export default function Opiniones() {
   return (
-    <div>
+    <div className="font-monospace">
       <Container fluid>
         <h1 className="text-center bg-light bg-gradient p-3 text-dark mt-5 pt-5">
           OPINIONES

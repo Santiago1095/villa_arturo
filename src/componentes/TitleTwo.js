@@ -1,14 +1,14 @@
 export default function TitleTwo() {
   return (
-    <div className="bg-light">
-      <h3 className="text-center fw-bolder bg-light bg-gradient p-3  text-dark">
+    <div className="bg-success">
+      <h1 className="text-center font-monospace text-warning bg-success  bg-gradient p-3 mt-1">
         LO INVITAMOS A CONOCER NUESTRO PROYECTO EN VENTA
-      </h3>
+      </h1>
 
-      <h4 className="text-center bg-light bg-gradient p-3  text-dark">
+      <h3 className="text-center font-monospace text-warning bg-success  p-3">
         Empieza a disfrutar la experiencia del campo en condominio
-        campestre Villa Arturo, ubicado en Yopal, Casanare
-      </h4>
+        campestre Villa Arturo, ubicado en Yopal Casanare
+      </h3>
     </div>
   );
 }

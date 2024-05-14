@@ -4,13 +4,13 @@ import img23 from "../assets/img23.jpg";
 
 export default function Abouts() {
   return (
-    <div className="row row-cols-1 row-cols-md-3 g-4 py-5 p-5 fst-italic">
+    <div className="row row-cols-1 row-cols-md-3 g-4 py-5 p-5 font-monospace">
       <div className="col">
         <div className="card h-100 border-5 rounded-3  border-light p-2">
           <img src={img21} className="rounded-3" />
           <div className="card-body">
             <h5 className="card-title">GESTIÓN DE PROYECTOS</h5>
-            <p className="card-text ">
+            <p className="card-text">
               En Villa Arturo te acompañamos desde tu idea inicial del proyecto
               pasando por la ejecución del mismo, hasta la terminación del
               proyecto. Gestionamos todos los trámites que conlleva un proyecto
