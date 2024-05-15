@@ -31,30 +31,32 @@ import img27 from "../../assets/img27.jpg";
 import img28 from "../../assets/img28.jpg";
 import img29 from "../../assets/img29.jpg";
 import img30 from "../../assets/img30.jpg";
-import img31 from "../../assets/img31.jpg";
-import img32 from "../../assets/img32.jpg";
-import img33 from "../../assets/img33.jpg";
-import img34 from "../../assets/img34.jpg";
-import img35 from "../../assets/img35.jpg";
-import img36 from "../../assets/img36.jpg";
-
-
-
-
+import imgr1 from "../../assets/imgr1.jpg";
+import imgr2 from "../../assets/imgr2.jpg";
+import imgr3 from "../../assets/imgr3.jpg";
+import imgr4 from "../../assets/imgr4.jpg";
+import imgr5 from "../../assets/imgr5.jpg";
+import imgr6 from "../../assets/imgr6.jpg";
 
 export default function Galeria() {
   const images = [
+    { original: imgr1, thumbnail: imgr1 },
     { original: img1, thumbnail: img1 },
     { original: img2, thumbnail: img2 },
+    { original: imgr2, thumbnail: imgr2 },
     { original: img3, thumbnail: img3 },
     { original: img4, thumbnail: img4 },
+    { original: imgr3, thumbnail: imgr3 },
     { original: img5, thumbnail: img5 },
     { original: img6, thumbnail: img6 },
+    { original: imgr4, thumbnail: imgr4 },
     { original: img7, thumbnail: img7 },
     { original: img8, thumbnail: img8 },
+    { original: imgr5, thumbnail: imgr5 },
     { original: img9, thumbnail: img9 },
     { original: img10, thumbnail: img10 },
     { original: img11, thumbnail: img11 },
+    { original: imgr6, thumbnail: imgr6 },
     { original: img12, thumbnail: img12 },
     { original: img13, thumbnail: img13 },
     { original: img14, thumbnail: img14 },
@@ -74,13 +76,6 @@ export default function Galeria() {
     { original: img28, thumbnail: img28 },
     { original: img29, thumbnail: img29 },
     { original: img30, thumbnail: img30 },
-    { original: img31, thumbnail: img31 },
-    { original: img32, thumbnail: img32 },
-    { original: img33, thumbnail: img33 },
-    { original: img34, thumbnail: img34 },
-    { original: img35, thumbnail: img35 },
-    { original: img36, thumbnail: img36 },
-    
   ];
 
   return (
@@ -89,11 +84,7 @@ export default function Galeria() {
         GALERIA
       </h1>
       <div style={{ width: "70vw", margin: "auto" }}>
-        <ImageGalery items={images} 
-        showBullets={true}
-        
-        
-        />
+        <ImageGalery items={images} showBullets={true} />
       </div>
     </div>
   );

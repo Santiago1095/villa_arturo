@@ -23,6 +23,7 @@ import Contacto from "./componentes/Contacto";
 import Footer from "./componentes/Footer";
 import Ubicacion from "./componentes/Ubicacion";
 import Diseño from "./componentes/comp-headers/Diseño";
+import Videos from "./componentes/comp-headers/Videos"
 
 export default function App() {
   return (
@@ -36,6 +37,7 @@ export default function App() {
 
         <Route path="/planos" element={<Planos />} />
         <Route path="/galeria" element={<Galeria />} />
+        <Route path="/videos" element={<Videos />} />
         <Route path="/diseño" element={<Diseño />} />
         <Route path="/opiniones" element={<Opiniones />} />
       </Routes>

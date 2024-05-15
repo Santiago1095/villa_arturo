@@ -12,19 +12,19 @@ export default function Footer() {
       </p>
       <div className="text-center ">
         <Button variant="success" style={{ margin: 10 }}>
-          <a href="https://www.facebook.com/" className="text-white">
+          <a href="https://www.facebook.com/profile.php?id=61559946830681" className="text-white">
             <FaFacebook style={{ width: 30, height: "auto" }} />
           </a>
         </Button>
 
         <Button variant="success" style={{ margin: 10 }}>
-          <a href="https://www.youtube.com/" className="text-white">
+          <a href="https://www.youtube.com/channel/UCQd2id4-QCuBSzqgBrkpulg" className="text-white">
             <FaYoutube style={{ width: 30, height: "auto" }} />
           </a>
         </Button>
 
         <Button variant="success" style={{ margin: 10 }}>
-          <a href="https://www.instagram.com/" className="text-white">
+          <a href="https://www.instagram.com/villa_arturo_yopal/" className="text-white">
             <FaInstagram style={{ width: 30, height: "auto" }} />
           </a>
         </Button>
