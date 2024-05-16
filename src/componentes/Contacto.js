@@ -1,6 +1,6 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-
+import Alert from "react-bootstrap/Alert";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
@@ -9,6 +9,8 @@ import Ratio from "react-bootstrap/Ratio";
 export default function Contacto() {
   const form = useRef();
 
+  const [alertMsg, setAlertMsg] = useState("");
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -16,41 +18,75 @@ export default function Contacto() {
       .sendForm("service_6tthuut", "template_3xjuxr8", form.current, {
         publicKey: "k1dxPHx9lbkikAHa1",
       })
-      .then(
-        () => {
-          alert("Mensaje enviado, muy pronto nos comunicaremos contigo.");
-
-          console.log("Enviado!");
-        },
-        (error) => {
-          console.log("No se envio...", error.text);
-        }
-      );
+      .then(() => {
+        setAlertMsg("success");
+      })
+      .catch(() => {
+        setAlertMsg("failed");
+      });
   };
   return (
     <div className="border border-success font-monospace border-3 g-1 py-5 p-5">
-      
       <Container fluid>
         <h2 className="text-center">Contacto</h2>
         <h4 className="text-center">Conéctate con nosotros</h4>
+        {alertMsg != "" && (
+          <Alert variant={alertMsg === "success" ? "success" : "danger"}>
+            {alertMsg === "success"
+              ? "Tu mensaje ha sido enviado"
+              : "Error: Tu mensaje no se ha enviado"}
+          </Alert>
+        )}
         <form ref={form} onSubmit={sendEmail}>
           <Row>
             <Col sm={4} className="py-2">
-              <label className="m-3">Escribe tu nombre </label>
-              <input type="text" required name="user_name" />
+              <div className="d-flex flex-column">
+                <label className="">Escribe tu nombre </label>
+                <input
+                  type="text"
+                  required
+                  placeholder="Santiago Montañez"
+                  name="user_name"
+                />
+              </div>
             </Col>
+
             <Col sm={4} className="py-2">
-              <label className="m-3">Escribe tu Email</label>
-              <input type="email" required name="user_email" />
+              <div className="d-flex flex-column">
+                <label className="">Escribe tu Email</label>
+                <input
+                  type="email"
+                  required
+                  placeholder="santiago@correo.com"
+                  name="user_email"
+                />
+              </div>
             </Col>
+
             <Col sm={4} className="py-2">
-              <label className="m-3">Escribe tu celular</label>
-              <input type="number" required name="user_phone" />
+              <div className="d-flex flex-column">
+                <label className="">Escribe tu celular</label>
+                <input
+                  type="number"
+                  required
+                  placeholder="3102334567"
+                  name="user_phone"
+                  style={{}}
+                />
+              </div>
             </Col>
           </Row>
           <Row>
-            <label className="p-2">Escribe tu comentario</label>
-            <textarea name="message" required />
+            <Col className="py-2">
+              <div className="d-flex flex-column">
+                <label>Escribe tu comentario</label>
+                <textarea
+                  name="message"
+                  placeholder="Hola, quiero mas informacion"
+                  required
+                />
+              </div>
+            </Col>
           </Row>
           <div className="text-center py-4">
             <input

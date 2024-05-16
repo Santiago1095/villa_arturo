@@ -6,11 +6,11 @@ import img24 from "../assets/img24.jpg";
 
 export default function Carousels() {
   return (
-    <div style={{ width: "100vw", margin: "auto" }}>
+    <div style={{ width: "100vw", margin: "auto", }}>
       <div row>
         <Carousel>
           <Carousel.Item interval={2500}>
-            <img src={imgr5} alt="" className="d-block w-100" />
+            <img src={imgr5} alt="" className="d-block w-100 " />
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={2500}>
