@@ -10,7 +10,7 @@ export default function Footer() {
       <p className="text-center">
         Condominio Villa Arturo Todos Los Derechos Reservados.
       </p>
-      <div className="text-center ">
+      <div className="text-center">
         <Button variant="success" style={{ margin: 10 }}>
           <a href="https://www.facebook.com/profile.php?id=61559946830681" className="text-white">
             <FaFacebook style={{ width: 30, height: "auto" }} />

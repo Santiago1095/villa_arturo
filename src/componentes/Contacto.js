@@ -82,7 +82,7 @@ export default function Contacto() {
                 <label>Escribe tu comentario</label>
                 <textarea
                   name="message"
-                  placeholder="Hola, quiero mas informacion"
+                  placeholder="Hola, quiero mas informacion..."
                   required
                 />
               </div>

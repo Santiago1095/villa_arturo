@@ -19,6 +19,7 @@ export default function Videos() {
         <Button
           variant="success"
           className="justify-content-center"
+          href="https://www.youtube.com/channel/UCQd2id4-QCuBSzqgBrkpulg"
           style={{ margin: 10 }}
         >
           Ver mas videos <br />

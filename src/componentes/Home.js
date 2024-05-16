@@ -6,7 +6,7 @@ import Data from "./Data";
 
 const Home = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid ">
       <TitleOne />
       <Carousels />
       <TitleTwo />
