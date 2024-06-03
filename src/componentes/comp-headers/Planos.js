@@ -1,10 +1,7 @@
-import {
-  TransformWrapper,
-  TransformComponent,
-  useControls,
-} from "react-zoom-pan-pinch";
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
 import img37 from "../../assets/img37.jpg";
+import { Button } from "react-bootstrap";
 
 export default function Planos() {
   return (
@@ -15,12 +12,26 @@ export default function Planos() {
       <TransformWrapper
         defaultScale={4}
         defaultPositionX={800}
-        defaultPositionY={200}
+        defaultPositionY={800}
       >
         <TransformComponent>
           <img src={img37} alt="" className="d-block w-100" />
         </TransformComponent>
       </TransformWrapper>
+
+      <Button variant="success"
+
+      href="javascript:location.reload()"
+        style={{
+          position: "fixed",
+          bottom: 120,
+          right: 15,
+          zIndex: 999,
+          zoom: 1,
+        }}
+      >
+        Volver
+      </Button>
     </div>
   );
 }

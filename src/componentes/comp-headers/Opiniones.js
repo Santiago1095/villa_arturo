@@ -27,11 +27,11 @@ export default function Opiniones() {
               <Card.Text>
                 La verdad estamos muy contentos. Yo creo que vinimos acá porque
                 Dios nos guió. Porque nosotros buscamos en varios lugares;
-                fuimos a ver varios condominios en otras zonas
+                fuimos a ver varios condominios en otras zonas y esta nos encanto.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">Propietaria de casa en villa Gladys</small>
             </Card.Footer>
           </Card>
           <Card>
@@ -43,7 +43,7 @@ export default function Opiniones() {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">Propietaria de casa en villa Gladys</small>
             </Card.Footer>
           </Card>
           <Card>
@@ -51,13 +51,12 @@ export default function Opiniones() {
             <Card.Body>
               <Card.Title>Pepito Perez</Card.Title>
               <Card.Text>
-              Excelente en tiempo e interés para el proyecto y poder sacar adelante todo el sector.
-
+              Nos encanta la naturaleza y poder estar en un lugar amplio, por eso escogimos comprar un lote y hacer la casa de nuestros sueños en este lugar. 
 
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">Propietario  de casa en Villa Gladys.</small>
             </Card.Footer>
           </Card>
         </CardGroup>
@@ -74,7 +73,7 @@ export default function Opiniones() {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">Villa </small>
             </Card.Footer>
           </Card>
           <Card>

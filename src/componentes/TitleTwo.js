@@ -7,7 +7,7 @@ export default function TitleTwo() {
 
       <h4 className="text-center font-monospace text-success bg-light py-3 ">
         Empieza a disfrutar la experiencia del campo en condominio
-        campestre Villa Arturo, ubicado en Yopal Casanare
+        campestre Villa Arturo, ubicado en Yopal Casanare, a 2.4KM del Aeropuerto Internacional El Alcaravan - Yopal (EYP).
       </h4>
     </div>
   );

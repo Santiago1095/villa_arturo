@@ -57,7 +57,7 @@ export default function Contacto() {
                 <input
                   type="email"
                   required
-                  placeholder="santiago@correo.com"
+                  placeholder="santiago@gmail.com"
                   name="user_email"
                 />
               </div>
