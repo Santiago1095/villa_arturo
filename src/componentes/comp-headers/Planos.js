@@ -9,6 +9,7 @@ export default function Planos() {
       <h1 className="text-center bg-light bg-gradient font-monospace p-3 text-dark mt-5 pt-5">
         PLANOS GENERALES
       </h1>
+      <p className="text-center font-monospace">Puedes realizar zoom a los planos para tener una mejor visualización</p>
       <TransformWrapper
         defaultScale={4}
         defaultPositionX={800}
