@@ -19,7 +19,7 @@ export default function Diseño() {
   return (
     <div className="container-fluid py-3 font-monospace">
       <h1 className="text-center bg-light bg-gradient font-monospace p-3 text-dark mt-5 pt-5">
-        Diseño Libre
+        DISEÑO LIBRE
       </h1>
 
       <p>
