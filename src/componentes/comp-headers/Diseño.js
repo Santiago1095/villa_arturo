@@ -19,7 +19,7 @@ export default function Diseño() {
   return (
     <div className="container-fluid py-3 font-monospace">
       <h1 className="text-center bg-light bg-gradient font-monospace p-3 text-dark mt-5 pt-5">
-        Diseño Libre
+        DISEÑOS LIBRES
       </h1>
 
       <p>
@@ -41,7 +41,9 @@ export default function Diseño() {
       </p>
 
       <div style={{ width: "70vw", margin: "auto" }}>
-        <ImageGalery items={images} showBullets={true} />
+        <ImageGalery items={images} 
+        showBullets={false}
+        autoPlay={true} />
       </div>
     </div>
   );

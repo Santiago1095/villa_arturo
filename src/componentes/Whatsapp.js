@@ -16,7 +16,7 @@ export default function Whatsapp() {
         padding: 6,
       }}
     >
-      <a href="https://wa.link/olzdv2" className="text-white">
+      <a href="https://wa.link/olzdv2" target="_blank"className="text-white">
         <SiWhatsapp
           className="bg-success py-2"
           style={{

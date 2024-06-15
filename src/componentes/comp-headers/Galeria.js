@@ -84,7 +84,9 @@ export default function Galeria() {
         GALERIA
       </h1>
       <div style={{ width: "70vw", margin: "auto" }}>
-        <ImageGalery items={images} showBullets={true} />
+        <ImageGalery items={images} 
+        showBullets={false}
+        autoPlay={true} />
       </div>
     </div>
   );

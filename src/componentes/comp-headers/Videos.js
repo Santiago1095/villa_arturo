@@ -20,6 +20,7 @@ export default function Videos() {
           variant="success"
           className="justify-content-center"
           href="https://www.youtube.com/channel/UCQd2id4-QCuBSzqgBrkpulg"
+          target="_blank"
           style={{ margin: 10 }}
         >
           Ver mas videos <br />
